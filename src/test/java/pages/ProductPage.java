@@ -13,7 +13,7 @@ public class ProductPage {
         this.driver=driver;
     }
 
-    public void addToCart(){
+    public void addToCart() {
         driver.findElement(addToCartButton).click();
     }
 }
